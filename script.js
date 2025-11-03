@@ -1,9 +1,9 @@
 function convertTemperature(){
     const inputTemp = parseFloat(document.getElementById('inputTemp').value);
-    const selectUnit = document.get ElementById('selectUnit').value;
+    const selectUnit = document.getElementById('unitSelect').value;
     let result = "";
 
     if(isNaN(inputTemp)){
-        result = "please enter a valid number.";
+        result = "Please enter a valid number.";
    
     }
