@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Temp_convereter</title>
+    </head>
+    <body>
+        <div>
+            <h2>&#x1F321;&#xFE0F;Temperature Converter</h2>
+            <p class="text">Convert temperatures between Celsius, Fahrenheit, and Kelvin</p>
+            <form>
+                <label>Enter Temperature:</label><br><br>
+                <input id="tempInput" class="longinput" type="number" min="0" max="293"><br><br>
+                <label>Select Unit:</label><br><br>
+                <select class="longinput" id="unitSelect">
+                    <option>Celsius (°C)</option>
+                    <option>Fahrenheit (°C) </option>
+                    <option>Kelvin (°C) </option>
+                </select>
+                <br><br>
+                <button class="longinput" id="convertBtn">Convert</button>
+            </form>
+            <p id="result" class="output"></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
