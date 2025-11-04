@@ -15,15 +15,15 @@
                 <input id="tempInput" class="longinput" type="number" min="0" max="293"><br><br>
                 <label>Select Unit:</label><br><br>
                 <select class="longinput" id="unitSelect">
-                    <option>Celsius (°C)</option>
-                    <option>Fahrenheit (°F)</option>
-                    <option>Kelvin (°K)</option>
+                    <option value="Celsius">Celsius (°C)</option>
+                    <option value="Fahrenheit">Fahrenheit (°F)</option>
+                    <option value="Kelvin">Kelvin (°K)</option>
                 </select>
                 <br><br>
-                <button class="longinput" id="convertBtn">Convert</button><br><br>
-                <p id="result" class="output"></p>
             </form> 
+            <button class="longinput" id="convertBtn" onclick="convertTemperature()">Convert</button>
+            <div id="result" class="output"></div>
         </div>
-        <script src="script.js"></script>
     </body>
+     <script src="script.js"></script>
 </html>
